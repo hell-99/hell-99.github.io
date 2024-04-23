@@ -67,12 +67,11 @@ Before you begin, ensure that you have the following installed:
      bash
      docker build -t backend .
      
-     ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/26.PNG)
    - Run the backend container:
      bash
-     docker run -d -p 3500:3500 --name backend-container --network=three-tier-network backend
+     docker run -d -p 3501:3501 --name backend-container --network=three-tier-network backend
      
-     ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/27.PNG)
+     ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/Backend.jpg)
 3. *Frontend Application:*
 
    - Navigate to the frontend directory.
@@ -80,16 +79,15 @@ Before you begin, ensure that you have the following installed:
      bash
      docker build -t frontend .
      
-     ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/28.PNG)
    - Run the frontend container:
      bash
      docker run -d --name frontend-container --network=three-tier-network -p 80:80 frontend
      
-     ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/29.PNG)
+     ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/Frontend.jpg)
 4. *Access the Application:*
 
    Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy exploring the MERN stack application!
-   ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/36.PNG)
+   ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/app.jpg)
 
     
 ## Data Persistence
