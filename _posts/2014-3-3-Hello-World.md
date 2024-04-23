@@ -30,7 +30,7 @@ Before you begin, ensure that you have the following installed:
    - bash
      docker network create my-network
      
-     ![Alt Text](https://raw.githubusercontent.com/Being-Reprobate/being-reprobate.github.io/blob/master/images/network%20create%20.png)
+     ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/network.png)
 1. *MySQL Database:*
 
    - Navigate to the mysql directory.
@@ -39,13 +39,13 @@ Before you begin, ensure that you have the following installed:
      docker build -t mysql-image .
      
      
-     ![Alt Text](https://raw.githubusercontent.com/Being-Reprobate/being-reprobate.github.io/blob/master/images/database%20image%20build1.png)
-     ![Alt Text](https://raw.githubusercontent.com/Being-Reprobate/being-reprobate.github.io/blob/master/images/database%20image%20build2.png)
+    
+     ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/database.jpg)
 
      
    - Run the MySQL container:
      bash
-     docker run --name mysql-container --network=three-tier-network -p 3306:3306 -v mysql-data:/var/lib/mysql -d mysql-image
+     docker run --name mysql-container --network=three-tier-network -p 3500:3500 -v mysql-data:/var/lib/mysql -d mysql-image
      
      ![Alt Text](https://raw.githubusercontent.com/Being-Reprobate/being-reprobate.github.io/blob/master/images/database%20container%20creation.png)
    - Access the MySQL container:
