@@ -47,19 +47,19 @@ Before you begin, ensure that you have the following installed:
      bash
      docker run --name mysql-container --network=three-tier-network -p 3500:3500 -v mysql-data:/var/lib/mysql -d mysql-image
      
-     ![Alt Text](https://raw.githubusercontent.com/Being-Reprobate/being-reprobate.github.io/blob/master/images/database%20container%20creation.png)
+     ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/Databasee.jpg)
    - Access the MySQL container:
      bash
      docker exec -it mysql-container /bin/bash
      
    - Inside the container, create tables for the database:
      sql
-     ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/24.PNG)
-     USE school;
+    
+     USE todolist;
      CREATE TABLE student (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(40), roll_number INT, class VARCHAR(16));
      CREATE TABLE teacher (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(40), subject VARCHAR(40), class VARCHAR(16));
      
-     ![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/25.PNG)
+     ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io//master/images/sql.jpg)
 2. *Backend Application:*
 
    - Navigate to the backend directory.
