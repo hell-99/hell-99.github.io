@@ -23,7 +23,7 @@ Before you begin, ensure that you have the following installed:
 ## Dockerfile(Backend)
 ![Alt Text](https://raw.githubusercontent.com/hell-99/hell-99.github.io/master/images/dockerBackend.png)
 ## Dockerfile(Frontend)
-![Alt Text](https://raw.githubustercontent.com/hell-99/hell-99.github.io/master/images/dockerFrontend.png)
+![Alt Text](https://raw.githubustercontent.com/hell-99/hell-99.github.io//master/images/Frontend.jpg)
 ## Deployment Steps
 0. *Create Network*
    - Navigate to the project directory
